@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		635EBAD01F4331FB008A6247 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635EBACF1F4331FB008A6247 /* AppDelegate.swift */; };
 		635EBAD21F4331FB008A6247 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635EBAD11F4331FB008A6247 /* ViewController.swift */; };
-		635EBAD51F4331FB008A6247 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635EBAD31F4331FB008A6247 /* Main.storyboard */; };
 		635EBAD71F4331FB008A6247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 635EBAD61F4331FB008A6247 /* Assets.xcassets */; };
 		635EBADA1F4331FB008A6247 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635EBAD81F4331FB008A6247 /* LaunchScreen.storyboard */; };
+		635EBAE51F434FA5008A6247 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635EBAE31F434FA5008A6247 /* Main.storyboard */; };
+		635EBAE71F434FB2008A6247 /* Ages.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 635EBAE61F434FB2008A6247 /* Ages.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		635EBACC1F4331FB008A6247 /* CoreMLVisionTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMLVisionTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		635EBACF1F4331FB008A6247 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		635EBAD11F4331FB008A6247 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		635EBAD41F4331FB008A6247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		635EBAD61F4331FB008A6247 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		635EBAD91F4331FB008A6247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		635EBADB1F4331FB008A6247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635EBAE41F434FA5008A6247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../Downloads/SmartCameraLBTA/SmartCameraLBTA/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		635EBAE61F434FB2008A6247 /* Ages.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Ages.mlmodel; path = ../../VirtPythEnv/Ages.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +56,11 @@
 		635EBACE1F4331FB008A6247 /* CoreMLVisionTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				635EBAE61F434FB2008A6247 /* Ages.mlmodel */,
 				635EBACF1F4331FB008A6247 /* AppDelegate.swift */,
 				635EBAD11F4331FB008A6247 /* ViewController.swift */,
-				635EBAD31F4331FB008A6247 /* Main.storyboard */,
 				635EBAD61F4331FB008A6247 /* Assets.xcassets */,
+				635EBAE31F434FA5008A6247 /* Main.storyboard */,
 				635EBAD81F4331FB008A6247 /* LaunchScreen.storyboard */,
 				635EBADB1F4331FB008A6247 /* Info.plist */,
 			);
@@ -122,9 +125,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				635EBAE51F434FA5008A6247 /* Main.storyboard in Resources */,
 				635EBADA1F4331FB008A6247 /* LaunchScreen.storyboard in Resources */,
 				635EBAD71F4331FB008A6247 /* Assets.xcassets in Resources */,
-				635EBAD51F4331FB008A6247 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				635EBAD21F4331FB008A6247 /* ViewController.swift in Sources */,
+				635EBAE71F434FB2008A6247 /* Ages.mlmodel in Sources */,
 				635EBAD01F4331FB008A6247 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,20 +147,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		635EBAD31F4331FB008A6247 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				635EBAD41F4331FB008A6247 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		635EBAD81F4331FB008A6247 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				635EBAD91F4331FB008A6247 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		635EBAE31F434FA5008A6247 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				635EBAE41F434FA5008A6247 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
